@@ -71,8 +71,6 @@ define(function (require, exports, module) {
     
     // Register command
     CommandManager.register("Rename tag name", CMDID, function () {
-        console.log("run");
-        
         var editor = EditorManager.getFocusedEditor();
         if (!editor || editor.getModeForSelection() !== "html") { return; }
         
