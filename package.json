@@ -3,7 +3,7 @@
     "name": "0674272bac.tagrenamer",
     "description": "Rename Open/Close tag names.",
     "homepage": "https://github.com/0674272bac/Brackets-TagRenamer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "0674272bac(https://github.com/0674272bac)",
     "license": "MIT",
     "repository": {
@@ -11,10 +11,9 @@
         "url": "git://github.com/0674272bac/Brackets-TagRenamer.git"
     },
     "engines": {
-        "brackets": ">=0.36.0"
+        "brackets": ">=0.39.0"
     },
     "keywords": [
-        "HTML",
-        "rename"
+        "HTML", "rename"
     ]
 }
