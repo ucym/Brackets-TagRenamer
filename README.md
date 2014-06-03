@@ -1,6 +1,6 @@
 Brackets-TagRenamer
 ===================
-An (Adobe Brackets)[http://github.com/adobe/brackets] extension.  
+An [Adobe Brackets](http://github.com/adobe/brackets) extension.  
 Rename Open/Close tag names.
 
 ## Usage
