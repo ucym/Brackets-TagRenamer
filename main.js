@@ -12,7 +12,7 @@ define(function (require, exports, module) {
     
         CMDID           = "0674272bac.html-tagrename",
         
-        editMenu        = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
+        editMenu        = Menus.getMenu(Menus.AppMenuBar.FIND_MENU);
     
     var markOption = {clearOnEnter: true, className: "tagrenamer-match"};
     
@@ -95,5 +95,5 @@ define(function (require, exports, module) {
     ];
     
     editMenu.addMenuItem(CMDID, keys, Menus.LAST_IN_SECTION,
-         Menus.MenuSection.EDIT_REPLACE_COMMANDS);
+         Menus.MenuSection.FIND_REPLACE_COMMANDS);
 });
