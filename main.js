@@ -65,7 +65,9 @@ define(function (require, exports, module) {
             if (tagClose) {
                 editor.document.replaceRange(newTagName, tagClose.start, tagClose.end, "*" + CMDID);
             }
+
             editor.document.replaceRange(newTagName, tagOpen.start, tagOpen.end, "*" + CMDID);
+            return !1;
         });
     }
     
