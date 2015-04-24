@@ -54,6 +54,7 @@ define(function (require, exports, module) {
         
         // Create modal bar
         var bar = new ModalBar("'" + tagName + "' change to <input type='text' value='" + tagName + "' style='width:8em'>", true, false);
+        bar.getRoot().find('input').select();
         
         // Replace tag name
         bar.getRoot().keydown(function (ev) {
